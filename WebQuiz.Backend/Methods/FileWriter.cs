@@ -12,9 +12,9 @@ namespace WebQuiz.Backend.Methods
             }
             using (Stream fs = new FileStream(path, FileMode.Open))
             {
-                byte[] scanINN = new byte[fs.Length];
+                byte[] fd = new byte[fs.Length];
 
-                await fs.ReadAsync(scanINN, 0, scanINN.Length);
+                await fs.ReadAsync(fd, 0, fd.Length);
             }
         }
     }
