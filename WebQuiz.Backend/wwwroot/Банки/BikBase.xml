@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Banks>
+<Bank>
+    <Bik>1254785462</Bik>
+    <BankName>ООО "БАНК"</BankName>
+    <CorrespondentAccount>12545875521263654897465133</CorrespondentAccount>
+</Bank>
+<Bank>
+    <Bik>8578578558</Bik>
+    <BankName>ООО "Ф-БАНК"</BankName>
+    <CorrespondentAccount>16132454687984684846464688</CorrespondentAccount>
+</Bank>
+</Banks>

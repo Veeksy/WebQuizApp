@@ -1,0 +1,81 @@
+.PageBody {
+    margin: 10%;
+}
+
+label {
+    font-size: large;
+}
+
+p {
+    font-size: small;
+    color: #959595;
+}
+
+select {
+    height: 40px;
+}
+
+input:invalid[required] {
+    border-color: red;
+}
+textarea:invalid[required] {
+    border-color: red;
+}
+select:invalid[required] {
+    border-color: red;
+}
+
+.form-input::placeholder {
+    color: #959595;
+    opacity: 1; /* Firefox */
+  }
+
+
+.arrow-1 {
+    position: relative;
+    width: 50px;
+    height: 80px;
+    margin: 20px;
+}
+.arrow-1 div {
+    position: relative;
+    top: 30px;
+    bottom: 30px;
+    width: 10px;
+    height: 87px;
+    background-color: #666565;
+    left:0;
+    display: block;
+}
+.arrow-1 div::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 10px;
+    top: 70px;
+    right: -4px;
+    background-color: #666565;
+    transform: rotate(45deg);
+}
+.arrow-1 div::before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 10px;
+    top: 70px;
+    right: -25px;
+    background-color: #666565;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    transform: rotate(-45deg);
+}
+@keyframes arrow-1 {
+    0% {
+        left:0;
+    }
+    50% {
+        left:10px;
+    }
+    100% {
+        left:0;
+    }
+}

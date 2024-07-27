@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Companies>
+<Company>
+    <INN>1234567890</INN>
+    <OGRN>1545858965421</OGRN>
+    <Name>ООО "Центральные геодезические манипуляторы"</Name>
+    <NameSocr>ООО "ЦГМ"</NameSocr>
+    <DateRegister>2022-04-03</DateRegister>
+</Company>
+<Company>
+    <INN>9876543210</INN>
+    <OGRN>1645747965238</OGRN>
+    <Name>ООО "Ручки"</Name>
+    <NameSocr>ООО "Ручки"</NameSocr>
+    <DateRegister>2009-12-05</DateRegister>
+</Company>
+</Companies>

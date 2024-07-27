@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abonent>
+  <INN>2345234242</INN>
+  <OGRNIP>234242424242424</OGRNIP>
+  <DateRegister>30.04.2015</DateRegister>
+  <WithoutDogovor>false</WithoutDogovor>
+  <BIK1>1241241414</BIK1>
+  <BankName1>sddfgs</BankName1>
+  <CheckingAccount1>422343543554333</CheckingAccount1>
+  <CorrespondentAccount1>43453534535353535535</CorrespondentAccount1>
+</abonent>

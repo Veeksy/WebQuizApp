@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebQuiz.Frontend", "WebQuiz.Frontend\", "{2C1E19EE-F815-4B6D-8FC6-EA12CFAA5FCF}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_57737"
+		Debug.AspNetCompiler.PhysicalPath = "WebQuiz.Frontend\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57737\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_57737"
+		Release.AspNetCompiler.PhysicalPath = "WebQuiz.Frontend\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57737\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57737"
+		SlnRelativePath = "WebQuiz.Frontend\"
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebQuiz.Backend", "WebQuiz.Backend\WebQuiz.Backend.csproj", "{71D6AD43-5C76-47D5-B766-84E9EE0EE704}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C1E19EE-F815-4B6D-8FC6-EA12CFAA5FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C1E19EE-F815-4B6D-8FC6-EA12CFAA5FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C1E19EE-F815-4B6D-8FC6-EA12CFAA5FCF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C1E19EE-F815-4B6D-8FC6-EA12CFAA5FCF}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{71D6AD43-5C76-47D5-B766-84E9EE0EE704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71D6AD43-5C76-47D5-B766-84E9EE0EE704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71D6AD43-5C76-47D5-B766-84E9EE0EE704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71D6AD43-5C76-47D5-B766-84E9EE0EE704}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {971B5D78-A976-4CAF-9974-4A334069F976}
+	EndGlobalSection
+EndGlobal
